@@ -91,19 +91,6 @@ série qui convient, et essayer de charger votre programme à bord.
 
 .. slide::
 
-Pilotage moteurs
-~~~~~~~~~~~~~~~~
-
-Voici les pins **Arduino** permettant de piloter les moteurs:
-
-.. discoverList::
-    * La pin **9** est la vitesse du moteur gauche
-    * La pin **7** est la direction du moteur gauche
-    * La pin **10** est la vitesse du moteur droit
-    * La pin **8** est la direction du moteur droit
-
-.. slide::
-
 Piloter les pins
 ~~~~~~~~~~~~~~~~
 
@@ -136,13 +123,26 @@ Il est possible de piloter des pins de deux façons:
 
 .. slide::
 
+Pilotage moteurs
+~~~~~~~~~~~~~~~~
+
+Voici les pins **Arduino** permettant de piloter les moteurs:
+
+.. discoverList::
+    * La pin **9** est la vitesse du moteur gauche
+    * La pin **7** est la direction du moteur gauche
+    * La pin **10** est la vitesse du moteur droit
+    * La pin **8** est la direction du moteur droit
+
+.. slide::
+
 Exemple
 ~~~~~~~
 
 .. textOnly::
     Par exemple, voici comment faire tourner les roues de gauche:
 
-.. code-block:: c
+.. code-block:: C
 
     void setup() {
         // Vitesse moteur gauche
@@ -162,6 +162,9 @@ Exemple
     Ce code fera tourner les roues de gauche de 100/255eme de la puissance
     que l'on peut leur fournir. La direction peut être modifiée à l'aide de la
     pin ``7``.
+
+    Vous pourrez alors faire tourner les moteurs plus ou moins vite et dans
+    les deux directions.
 
 Communication série
 ~~~~~~~~~~~~~~~~~~~
