@@ -64,7 +64,8 @@ Connexions
 .. center::
     .. image:: /img/bigboard.jpg
 
-Nous brancherons les moteurs sur "Left Motor" et "Right Motor"
+Nous brancherons les moteurs sur "Left Motor" et "Right Motor", et la batterie sur
+"Battery+/Battery-"
 
 .. slide::
 
@@ -89,6 +90,6 @@ Pont en H
 
 .. textOnly::
     En effet, les entrées/sorties standards de la carte **Arduino** ne permettent
-    de fournit que ~20mA maximum, brancher un moteur dessus pourrait endomager la carte,
+    de fournir que ~20mA maximum, brancher un moteur dessus pourrait endomager la carte,
     le pont en H fournit à la fois la puissance et les deux directions
 

@@ -73,7 +73,7 @@ Carte de contrôle
     **Carte éléctronique de contrôle moteur**
 
 .. discoverList::
-    * Un micro-contrôlleur **ATmega 328p** compatible **Arduino**
+    * Un micro-contrôlleur **ATmega 8** compatible **Arduino**
     * Des **entrées/sorties** ("GPIO")
     * Deux **Pont en H** capable de supporter 2.5A
     * Un **connecteur USB**
