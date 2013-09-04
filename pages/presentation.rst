@@ -51,6 +51,8 @@ Chassis
     * Des **entretoises** pour fixer des cartes éléctroniques dessus
     * Un **coupleur de piles** 4xAA
 
+.. _montage:
+
 .. textOnly::
     Ce chassis est livré non monté avec une notice clair et un tournevis adapté, il est très
     facile de le monter
@@ -98,6 +100,7 @@ Système embarqué
 
 .. discoverList::
     * Un processeur **ARM** cadencé à **700Mhz**
+    * **512Mo** de mémoire vive
     * Un système d'exploitation, en l'occurence **Debian**, installé sur une carte SD
     * Des **ports USB** et un **port Ethernet**
 
