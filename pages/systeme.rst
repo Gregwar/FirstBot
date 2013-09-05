@@ -29,11 +29,11 @@ Installation
 ------------
 
 Télécharger l'image et inscrivez là simplement sur la carte SD. Vous pourrez utiliser
-une commande comme ``dd``, vous pouvez vous référrer à ce `tutorial <http://elinux.org/RPi_Easy_SD_Card_Setup>`_.
+une commande comme ``dd``, vous pouvez vous réferer à ce `tutorial <http://elinux.org/RPi_Easy_SD_Card_Setup>`_.
 
 Vous pourrez alors vous connecter en SSH à la carte avec les paramètres:
 
 .. code-block:: txt
-    login: pi
-    password: raspberry
+    identifiant: pi
+    mot de passe: raspberry
 
