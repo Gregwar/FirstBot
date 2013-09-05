@@ -37,3 +37,14 @@ Vous pourrez alors vous connecter en SSH à la carte avec les paramètres:
     identifiant: pi
     mot de passe: raspberry
 
+.. slide::
+
+Paquets
+-------
+
+Vous pouvez installer les paquets suivants:
+
+.. code-block:: txt
+
+    apt-get install git libcv2.3 g++ apache2 cu cmake
+
