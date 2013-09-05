@@ -85,6 +85,8 @@ Carte de contrôle
 
 .. slide::
 
+.. _se:
+
 Système embarqué
 ~~~~~~~~~~~~~~~~
 

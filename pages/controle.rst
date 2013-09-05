@@ -5,6 +5,12 @@ Contrôle
 ========
 
 .. textOnly::
+    .. warning::
+        Dans cette partie, nous apprendrons à programmer la carte de contrôle
+        éléctronique et à l'utiliser. Vous n'utiliserez pas la Raspberry pi mais
+        votre propre ordinateur.
+
+.. textOnly::
     Maintenant, vous devriez avoir assemblé votre chassis et soudé les
     câbles,
 
@@ -169,7 +175,11 @@ Exemple
 Communication série
 ~~~~~~~~~~~~~~~~~~~
 
-Enfin, pour dialoguer entre votre ordinateur et la carte, vous pouvez utiliser
+.. textOnly::
+    Vous vous en doutez, vous n'allez pas reprogrammer la carte à chaque fois que vous
+    voudrez changer les ordres envoyés aux moteurs
+
+Pour dialoguer entre votre ordinateur et la carte, vous pouvez utiliser
 une liaison **série**, pour cela, vous ferez appel au module `Serial <http://arduino.cc/en/Reference/Serial>`_
 de Arduino.
 
