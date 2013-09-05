@@ -5,6 +5,20 @@ Présentation
 
 .. slide::
 
+Support
+-------
+
+Ce support est accessible à l'adresse suivante:
+
+.. important::
+    `http://gregwar.com/firstbot/ <http://gregwar.com/firstbot/>`_
+
+.. note::
+
+    Les slides sont incorporées au contenu
+
+.. slide::
+
 Objectif du projet
 ------------------
 
@@ -12,6 +26,9 @@ Objectif du projet
 
     **FirstBot** est un projet consistant à créer son propre robot, et
     par la même occasion apprendre des choses, notamment:
+
+.. slideOnly::
+    Apprendre des bases de robotique et d'embarqué
 
 .. discoverList::
     * Comment **piloter un moteur**?

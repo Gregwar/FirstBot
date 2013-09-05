@@ -9,6 +9,9 @@ Assemblage
 Chassis
 -------
 
+Montage
+~~~~~~~
+
 .. textOnly::
     Comme expliqué :doc:`précédement <presentation#montage>`, le chassis est livré
     en pièces à assembler, une notice claire et un tournevis, réferrez-vous donc
@@ -19,6 +22,22 @@ Chassis
 
 .. important::
     A vos tournevis!
+
+.. slide::
+
+Moteurs
+~~~~~~~
+
+Les moteurs sont des `moteurs à courant continu <http://fr.wikipedia.org/wiki/Machine_%C3%A0_courant_continu>`_,
+ils sont accompagnées d'une *gearbox*, ou boîte à engrenages.
+
+.. discover::
+    Ces derniers permettent de donner plus de couple aux moteurs, en en réduisant la vitesse
+
+.. discover::
+    .. center::
+        .. image:: /img/gearbox.jpg
+        Exemple de *gearbox* dans un servomoteur
 
 .. slide::
 
