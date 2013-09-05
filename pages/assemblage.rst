@@ -112,3 +112,13 @@ Pont en H
     de fournir que ~20mA maximum, brancher un moteur dessus pourrait endomager la carte,
     le pont en H fournit à la fois la puissance et les deux directions
 
+.. textOnly::
+    Ressources
+    ----------
+
+    * `Fiche produit du chassis Dagu 4WD <http://www.robotshop.com/productinfo.aspx?pc=RB-Dag-71&lang=en-US>`_
+    * `Fiche produit de la board de contrôle Dagu <http://robosavvy.com/store/product_info.php/manufacturers_id/35/products_id/3347>`_
+    * `Fiche produit Raspberry Pi <http://piregistration.element14.com/raspberryPi1.html>`_
+    * `Fiche produit des cartes SD <http://fr.farnell.com/element14/mmbtf04gwbca-xbmc/carte-sd-4go-xbmc-precharge/dp/2301513?in_merch=New%20Products>`_
+    * `Fiche produit des piles LR6+chargeur <http://fr.farnell.com/gp-batteries/ar01bs210b-ew4/chargeur-recyko-nimh-2100mah-cells/dp/1781095>`_
+    * `Fiche produit de la caméra Logitech C310 <http://fr.farnell.com/logitech/960-000586/webcam-5mp-c310-logitech/dp/1889752?Ntt=C310+logitech>`_
