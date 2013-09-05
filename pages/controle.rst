@@ -196,3 +196,14 @@ des ordres à la carte en série.
 .. discover::
     .. important::
         A vous de jouer!
+
+.. textOnly::
+    Ressources
+    ----------
+
+    * `Téléchargement de Arduino <http://arduino.cc/en/Main/Software>`_
+    * `Prise en main de Arduino <http://arduino.cc/en/Guide/HomePage>`_
+    * `Référence des fonctions Arduino <http://arduino.cc/en/Reference/HomePage>`_
+    * `Documentation de Serial <http://arduino.cc/en/Reference/Serial>`_
+    * `Fiche produit de la board de contrôle Dagu <http://robosavvy.com/store/product_info.php/manufacturers_id/35/products_id/3347>`_
+
