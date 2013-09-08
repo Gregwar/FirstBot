@@ -23,6 +23,10 @@ de la **Raspberry pi**:
     .. important::
         `Télécharger une image Raspbian → <http://www.raspberrypi.org/downloads>`_
 
+.. textOnly::
+    La mémoire principale de la **Raspberry pi** est une carte SD sur laquelle nous installerons
+    le système d'exploitation.
+
 .. slide::
 
 Installation
