@@ -48,7 +48,7 @@ Paquets
 
 Vous pouvez installer les paquets suivants:
 
-.. code-block:: txt
+.. code-block:: text
 
     apt-get install git libcv2.3 libcv-dev libopencv-contrib-dev \
           libopencv-gpu-dev g++ apache2 cu cmake
