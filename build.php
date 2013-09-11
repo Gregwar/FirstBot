@@ -11,9 +11,6 @@ $slidey = new Gregwar\Slidey\Slidey;
 /**
  * Customizing template
  */
-
-$slidey->addCss('css/style.css');
-
 // Sets the title prefix
 $slidey->setTitle('FirstBot');
 

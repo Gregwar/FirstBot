@@ -6,6 +6,16 @@ Vision
 
 .. slide::
 
+Présentation
+------------
+
+Maintenant, nous allons utiliser **OpenCV** pour la vision.
+
+.. discover::
+    Nous utiliserons aussi une bibliothèque C++ pour communiquer avec le port série
+
+.. slide::
+
 Dépôt
 -----
 
@@ -13,7 +23,7 @@ Un dépôt open-source est déjà disponible, il contient des exemples:
 
 .. discover::
     .. important::
-        `https://github.com/Gregwar/AU324 <https://github.com/Gregwar/AU324>`_
+        `Dépôt AU324 sur GitHub →  <https://github.com/Gregwar/AU324>`_
 
 .. slide::
 
