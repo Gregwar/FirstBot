@@ -37,6 +37,6 @@ Code
 Le code contient deux fonctions d'exemple:
 
 .. discoverList::
-    * ``demo()``: fait fonctionner le robot (il faudra sans doute adapter
+    * ``demoRobot()``: fait fonctionner le robot (il faudra sans doute adapter
       ``Robot.h`` et ``Robot.cpp`` pour l'adapter à votre communication sére
     * ``demoCV()``: capture une image avec votre caméra et la sauve dans un fichier
