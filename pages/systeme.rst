@@ -50,7 +50,7 @@ Vous pouvez installer les paquets suivants:
 
 .. code-block:: txt
 
-    apt-get install git libcv2.3 g++ apache2 cu cmake
+    apt-get install git libcv2.3 libcv-dev libopencv-contrib-dev libopencv-gpu-dev g++ apache2 cu cmake
 
 .. textOnly::
     Ressources
