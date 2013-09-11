@@ -7,4 +7,5 @@ Sommaire
     assemblage
     controle
     systeme
+    vision
 
