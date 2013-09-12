@@ -5,6 +5,14 @@ Présentation
 
 .. slide::
 
+Vidéo
+-----
+
+.. center::
+    .. youtube:: QNsnn63xhFU
+
+.. slide::
+
 Support
 -------
 
