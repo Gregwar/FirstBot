@@ -40,56 +40,58 @@ Robot vs automate vs machine
 Au niveau conceptuel
 ~~~~~~~
 Un robot est composé schématiquement de 3 parties: 
-.. discoverList::
-* des **actuateurs**: permettent au robot d'agir sur/de modifier son environnement. Ex : jambes, mains, cordes vocales, roues, enceintes ...
-* des **senseurs**: permettent au robot de mesurer/de surveiller son environnement. Ex: yeux, nez, la peau, oreilles, camera, micro, sonde laser, sonde ultra-son...
-* un **système de décision**: permet au robot d'adapter son comportement en fonction de son environnement. Ex: le cerveau.   
+
+.. image:: /img/SchemaRobot001.png
+    :class: center
+
+.. slide::
+Un robot est composé schématiquement de 3 parties: 
+
+.. image:: /img/SchemaRobot002.png
+    :class: center
 
 .. slide::
 Au niveau matériel
 ~~~~~~~
 .. discoverList::
-* le **corps du robot**:  les composants du système de décision, des senseurs et actuateurs bruts.
+* le **corps du robot**:  les composants du système de décision, des capteurs et actionneurs bruts.
 
 .. discover::
-Science des matériaux, électronique, modélisation, bricolage; 
-IT 358: Systèmes embarqués; 
-AU 325: Modélisation et analyse.
+Science des matériaux, mécanique, électronique, modélisation, bricolage; 
+I9ROBOT-B Architecture des systèmes robotiques;
 
 .. discoverList::
-* des **systèmes de contrôle** des moteurs (actuateurs).
+* des **systèmes de contrôle** des moteurs (actionneurs).
 
 .. discover::
-Automatique, Contrôle.
+Automatique, Contrôle; 
+I9ROBOT-A Modélisation et commande de systèmes robotiques; 
+I9ROBOT-B Architecture des systèmes robotiques;
 
 .. discoverList::
-* des systèmes de **traitement de l'information** des senseurs.
+* des systèmes de **traitement de l'information** des capteurs.
 
 .. discover::
-MA 300: Statistiques; 
-TS 341: Outils d'imagerie pour la robotique.
+Traitement des images, Statistique; 
+I9ROBOT-D Outils d'imagerie pour la robotique
  
 .. discoverList::
 * des systèmes de **prise de décision** (système embarqué).
 
 .. discover::
-MA 300: Statistiques; 
-AU 318: Sûreté de fonctionnement; 
-IF 314: Interaction homme-robot.
+Statistiques, Sûreté de fonctionnement, Interaction homme-robot, Interaction robot-robot; 
+I9ROBOT-C Robotique avancée; 
+I9ROBOT-E Interactions homme-robot et systèmes multi-agents
  
 .. textOnly::
 Liste des cours: 
 ~~~~~~~
 .. textOnly::
-* LC 301: Génie Logiciel
-* IF 314: Développement logiciel guidé par modélisation et vérification
-* AU 325: Modélisation et analyse
-* TS 341: Outils d'imagerie pour la robotique
-* MA 300: Statistiques
-* AU 318: Sûreté de fonctionnement
-* IF 314: Interaction homme-robot
-* IT 358: Systèmes embarqués
-
+I9ROBOT-A Modélisation et commande de systèmes robotiques;
+I9ROBOT-B Architecture des systèmes robotiques;
+I9ROBOT-C Robotique avancée;
+I9ROBOT-D Outils d'imagerie pour la robotique;
+I9ROBOT-E Interactions homme-robot et systèmes multi-agents.
 
 .. slide::
 Objectif du projet
@@ -104,18 +106,15 @@ Objectif du projet
     des bases de robotique et de l'embarqué
 
 .. discoverList::
-    * le contrôle des **actuateurs** du robot:
+    * le contrôle des **actionneurs** du robot:
      Comment piloter un moteur?
-     Comment programmer des petits micro-contrôleurs? En l'occurence
-      on utilisera dans ce projet une carte compatible `Arduino <http://arduino.cc>`_
+     Comment programmer des petits micro-contrôleurs? -> une carte compatible `Arduino <http://arduino.cc>`_
 
     * le système de **décision** (intelligence artificielle) du robot:
-     Comment utiliser un système embarqué? En l'occurence
-      on utilisera dans ce projet une
+     Comment utiliser un système embarqué? ->
       `Raspberry pi <http://www.raspberrypi.org/>`_
-    * l'exploitation des **senseurs** du robot:
-     Comment faire de l'analyse d'image? En l'occurence
-      on utilisera dans ce projet `OpenCV <http://opencv.org/>`_
+    * l'exploitation des **capteurs** du robot:
+     Comment faire de l'analyse d'image? -> `OpenCV <http://opencv.org/>`_
 
 .. discover::
     .. important::

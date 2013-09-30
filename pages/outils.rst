@@ -39,7 +39,7 @@ Le corps du robot: le chassis
 
 .. slide::
 
-Les actuateurs : la carte de contrôle
+Les actionneurs : la carte de contrôle
 ~~~~~~~~~~~~~~~~~
 
 .. image:: /img/board.jpg
@@ -92,7 +92,7 @@ Le système de décision : le système embarqué
 
 .. slide::
 
-Les senseurs: la caméra
+Les capteurs: la caméra
 ~~~~~~
 
 .. image:: /img/logitech.jpg
@@ -120,7 +120,7 @@ Les senseurs: la caméra
 Logiciel
 --------
 
-Contrôle des actuateurs: Arduino
+Contrôle des actionneurs: Arduino
 ~~~~~~~
 
 .. image:: /img/arduino.png
@@ -173,7 +173,7 @@ Système de décision: Debian
 
 .. slide::
 
-Traitement de l'information des senseurs : OpenCV
+Traitement de l'information des capteurs : OpenCV
 ~~~~~~
 
 .. image:: /img/opencv.png
@@ -188,7 +188,7 @@ Traitement de l'information des senseurs : OpenCV
 .. discoverList::
     * Est **Open-source**
     * Permet **d'accéder aux images d'une caméra** facilement
-    * Est assez **documenté** et facile d'emploi
+    * Est assez ` documenté <http://opencv.org/documentation.html>`_ et facile d'emploi
     * Contient de nombreuses **fonctions d'analyse d'image** clé en main
 
 .. textOnly::

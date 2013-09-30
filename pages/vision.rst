@@ -1,7 +1,7 @@
 
 .. slide:: middleSlide
 
-Vision : traitement de l'information des senseurs
+Vision : traitement de l'information des capteurs
 ======
 
 .. slide::
