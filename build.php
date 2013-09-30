@@ -11,5 +11,5 @@ $slidey
     ->setTitle('FirstBot')
     ->copy('img', 'img')
     ->copy('favicon.ico')
-    ->build('../firstbot')
+    ->build()
     ;
