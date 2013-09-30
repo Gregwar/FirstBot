@@ -1,12 +1,12 @@
 
 .. slide:: middleSlide
 
-Contrôle
+Contrôle des moteurs
 ========
 
 .. textOnly::
     .. warning::
-        Dans cette partie, nous apprendrons à programmer la carte de contrôle
+        Le contrôle des moteurs se fait grace à une carte de contrôle électronique dédiée. Elle sera d'abord programmée avant d'être utilisable. Dans cette partie, nous apprendrons à programmer la carte de contrôle
         éléctronique et à l'utiliser. Vous n'utiliserez pas la Raspberry pi mais
         votre propre ordinateur.
 

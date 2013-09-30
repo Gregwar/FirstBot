@@ -1,7 +1,7 @@
 
 .. slide:: middleSlide
 
-Système embarqué
+Système embarqué: le cerveau du robot
 ================
 
 .. slide::
@@ -32,13 +32,14 @@ de la **Raspberry pi**:
 Installation
 ------------
 
-Télécharger l'image et inscrivez là simplement sur la carte SD. Vous pourrez utiliser
+Raspbian est à installer sur la carte SD. Télécharger l'image et inscrivez la simplement sur la carte SD. Vous pourrez utiliser
 une commande comme ``dd``, vous pouvez vous réferer à ce `tutoriel <http://elinux.org/RPi_Easy_SD_Card_Setup>`_.
 
 Vous pourrez alors vous connecter en SSH à la carte avec les paramètres:
 
 .. code-block:: txt
-    identifiant: pi
+    adresse ip:   172.0.0.1
+    identifiant:  pi
     mot de passe: raspberry
 
 .. slide::
@@ -46,12 +47,12 @@ Vous pourrez alors vous connecter en SSH à la carte avec les paramètres:
 Paquets
 -------
 
-Vous pouvez installer les paquets suivants:
+Les paquets suivants sont à installer:
 
 .. code-block:: text
 
     apt-get install git libcv2.3 libcv-dev libopencv-contrib-dev \
-          libopencv-gpu-dev g++ apache2 cu cmake
+          libopencv-gpu-dev libopencv-dev g++ apache2 cu cmake
 
 .. textOnly::
     Ressources
