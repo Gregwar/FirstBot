@@ -34,7 +34,8 @@ Vidéo
 Qu'est-ce qu'un robot?
 ------------------
 .. discover::
-Robot vs automate vs machine
+    .. important::
+        Robot vs automate vs machine
 
 .. slide::
 Au niveau conceptuel
