@@ -35,7 +35,7 @@ Le corps du robot: le chassis
 
 .. textOnly::
     Ce chassis est livré non monté avec une notice claire et un tournevis adapté, il est très
-    facile de le monter.
+    facile de le monter. On imprimera aussi des pieces pour faire tenir la caméra avec l'imprimante 3D.
 
 .. slide::
 
@@ -195,3 +195,10 @@ Traitement de l'information des capteurs : OpenCV
     Elle vous permettra d'extraire les images de la caméra et de les analyser pour
     piloter votre robot
 
+
+.. slide::
+Design du hardware
+~~~~~~
+
+
+On téléchargera un logiciel de CAD pour le design des pieces 3D: `Autodesk Inventor Professional <http://students.autodesk.com/?nd=download_center>`_
