@@ -197,8 +197,8 @@ Traitement de l'information des capteurs : OpenCV
 
 
 .. slide::
+
 Design du hardware
 ~~~~~~
-
 
 On téléchargera un logiciel de CAD pour le design des pieces 3D: `Autodesk Inventor Professional <http://students.autodesk.com/?nd=download_center>`_
