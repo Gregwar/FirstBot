@@ -9,7 +9,7 @@ Support
 -------
 Nguyen Sao Mai : nguyensmai@gmail.com
 
-Passault Grégoire
+Passault Grégoire : g.passault@gmail.com
 
 Ce support est accessible à l'adresse suivante:
 
