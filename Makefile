@@ -3,8 +3,8 @@ all:
 	php build.php 
 
 redo:
-	rm -rf web/
+	rm -rf ../firstbot/
 	php build.php
 
 clean:
-	rm -rf web/
+	rm -rf ../firstbot/

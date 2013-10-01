@@ -1,7 +1,7 @@
 
 .. slide:: middleSlide
 
-Assemblage
+Assemblage: le corps du robot 
 ==========
 
 .. slide::

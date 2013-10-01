@@ -3,7 +3,8 @@ Sommaire
 
 .. toctree::
 
-    presentation
+	presentation
+	outils
     assemblage
     controle
     systeme

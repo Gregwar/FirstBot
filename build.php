@@ -7,20 +7,9 @@ include('vendor/autoload.php');
  */
 
 $slidey = new Gregwar\Slidey\Slidey;
-
-/**
- * Customizing template
- */
-// Sets the title prefix
-$slidey->setTitle('FirstBot');
-
-/**
- * Adding custom directories
- */
-
-// This will copy the directory "css" to the target directory
-$slidey->copy('img', 'img');
-$slidey->copy('favicon.ico');
-
-// Runs the build to the web directory
-$slidey->build();
+$slidey
+    ->setTitle('FirstBot')
+    ->copy('img', 'img')
+    ->copy('favicon.ico')
+    ->build()
+    ;
