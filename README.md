@@ -1,13 +1,4 @@
-SlideyStandard
-==============
+FirstBot
+========
 
-The Slidey Standard Edition
-
-Installation
-============
-
-You can create a Slidey project by using composer :
-
-```
-composer create-project gregwar/slidey-standard
-```
+Ceci est la source du support d'un cours donné aux étudiants de l'option robot à l'ENSEIRB
