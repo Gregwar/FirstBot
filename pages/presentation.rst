@@ -7,9 +7,9 @@ Présentation
 
 Support
 -------
-Nguyen Sao Mai : nguyensmai@gmail.com
 
-Passault Grégoire : g.passault@gmail.com
+Quentin Rouxel: qrouxel@labri.fr
+Passault Grégoire: g.passault@gmail.com
 
 Ce support est accessible à l'adresse suivante:
 
@@ -28,7 +28,6 @@ Vidéo
 .. center::
     .. youtube:: QNsnn63xhFU
 
-
 .. slide::
 
 Qu'est-ce qu'un robot?
@@ -36,20 +35,6 @@ Qu'est-ce qu'un robot?
 .. discover::
     .. important::
         Robot vs automate vs machine
-
-.. slide::
-Au niveau conceptuel
-~~~~~~~
-Un robot est composé schématiquement de 3 parties: 
-
-.. image:: /img/SchemaRobot001.png
-    :class: center
-
-.. slide::
-Un robot est composé schématiquement de 3 parties: 
-
-.. image:: /img/SchemaRobot002.png
-    :class: center
 
 .. slide::
 Au niveau matériel
