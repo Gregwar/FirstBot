@@ -9,6 +9,7 @@ Support
 -------
 
 Quentin Rouxel: qrouxel@labri.fr
+
 Passault Grégoire: g.passault@gmail.com
 
 Ce support est accessible à l'adresse suivante:
