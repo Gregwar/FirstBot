@@ -32,9 +32,10 @@ Vidéo
 
 Qu'est-ce qu'un robot?
 ------------------
-.. discover::
-    .. important::
-        Robot vs automate vs machine
+
+* Robot?
+* Automate?
+* Machine?
 
 .. slide::
 
