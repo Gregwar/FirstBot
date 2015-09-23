@@ -25,11 +25,10 @@ Le corps du robot: le chassis
     **Dagu Magician 4WD**
 
 .. discoverList::
-    * **4 moteurs** avec réducteurs
+    * **2 moteurs** avec réducteurs
     * **Deux étages** avec trous de fixations
     * Des **entretoises** pour fixer des cartes éléctroniques dessus
-    * Un **coupleur de piles** 4xAA
-    * 4 pile AA (LR6) NiMH.
+    * Une LiPo 2S (7.4V)
 
 .. _montage:
 
@@ -60,8 +59,7 @@ Les actionneurs : la carte de contrôle
 
 .. textOnly::
     Cette carte fait donc parfaitement l'affaire pour piloter le chassis ci-dessus.
-    Etant donné que nous ne disposons que de deux ponts en H, nous piloterons les roues
-    deux par deux (les deux droites et les deux gauches).
+    Chaque pont en H permettra de piloter une roue.
 
 .. slide::
 
@@ -108,7 +106,7 @@ Les capteurs: la caméra
 .. discoverList::
     * Peut filmer en **HD 720p**
     * **Compatible Linux** et OpenCV
-    * Peut **descendre en résolution** pour augmenter en fréen fréen fréquence
+    * Peut **descendre en résolution** pour augmenter en fréquence
 
 .. textOnly::
     Cette caméra sera branchée à la **Raspberry Pi** qui en extraiera des images pour
@@ -127,7 +125,7 @@ Contrôle des actionneurs: Arduino
     :class: right
 
 .. textOnly::
-    **Arduino** est une suite logicielle permettant de programmer facilement certain
+    **Arduino** est une suite logicielle permettant de programmer facilement certains
     modèles de micro-contrôleurs. Nous utiliserons cette suite dans le but de programmer
     la carte de contrôle éléctronique et piloter les moteurs. Cet outil:
 
