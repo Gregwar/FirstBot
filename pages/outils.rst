@@ -193,6 +193,21 @@ Traitement de l'information des capteurs : OpenCV
     Elle vous permettra d'extraire les images de la caméra et de les analyser pour
     piloter votre robot
 
+.. slide::
+
+Batteries: LiPo 2S
+~~~~~~~~~~~~~~~~~
+
+Vous utiliserez des batteries LiPo 2S.
+
+.. warning::
+    Attention: pensez à bien brancher le buzzer à la batterie avant toute
+    utilisation et à tout éteindre **immédiatement** lorsqu'il commence à
+    beeper.
+
+.. slide::
+
+.. youtube:: XbZNZ1-ovzc
 
 .. slide::
 

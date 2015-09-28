@@ -30,12 +30,27 @@ Vidéo
 
 .. slide::
 
+.. center::
+    .. youtube:: vBYw-NHZ1HA
+
+.. slide::
+
 Qu'est-ce qu'un robot?
 ------------------
 
 * Robot?
 * Automate?
 * Machine?
+
+.. slide::
+
+.. important::
+    **robot**: ethymologie *robota*, soit travail, corvée ou servage
+
+.. slide::
+
+.. center::
+    .. image:: /img/robot.png
 
 .. slide::
 
@@ -48,13 +63,13 @@ Science des matériaux, mécanique, électronique, modélisation, bricolage;
 
 .. slide::
 
-Des **systèmes de contrôle** des moteurs (actionneurs)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Des **systèmes de contrôle**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. discover::
 Automatique, Contrôle; 
+``I9ROBOT-B`` Architecture des systèmes robotiques; 
 ``I9ROBOT-A`` Modélisation et commande de systèmes robotiques; 
-``I9ROBOT-B`` Architecture des systèmes robotiques;
 
 .. slide::
 
