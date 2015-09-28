@@ -207,7 +207,8 @@ Vous utiliserez des batteries LiPo 2S.
 
 .. slide::
 
-.. youtube:: XbZNZ1-ovzc
+.. center::
+    .. youtube:: XbZNZ1-ovzc
 
 .. slide::
 
