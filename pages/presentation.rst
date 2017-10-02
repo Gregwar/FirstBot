@@ -8,7 +8,7 @@ Présentation
 Support
 -------
 
-* Rémi Fabre: remi.fabre@labri.fr
+* Rémi Fabre: remifabre1800@gmail.com
 * Passault Grégoire: g.passault@gmail.com
 
 Ce support est accessible à l'adresse suivante:
