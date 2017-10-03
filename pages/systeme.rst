@@ -51,7 +51,7 @@ Les paquets suivants sont à installer:
 
 .. code-block:: text
 
-    apt-get install git libcv2.3 libcv-dev libopencv-contrib-dev \
+    apt-get install git libcv2.4 libcv-dev libopencv-contrib-dev \
           libopencv-gpu-dev libopencv-dev g++ apache2 cu cmake
 
 .. textOnly::
