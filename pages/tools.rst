@@ -1,6 +1,6 @@
 .. slide:: middleSlide
 
-Matériel
+Outils
 ======
 
 .. slide::
@@ -117,7 +117,7 @@ Logiciel
 .. image:: /img/pypot.png
     :class: right
     :width: 250
-    
+
 
 Contrôle des actionneurs: PyPot
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
