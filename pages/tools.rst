@@ -8,7 +8,7 @@ Outils
 Matériel
 --------
 
-Le corps du robot: le chassis
+Le corps du robot: le châssis
 ~~~~~~~
 
 .. image:: /img/mx-12w.jpg
@@ -24,7 +24,7 @@ Le corps du robot: le chassis
     * **2 moteurs** avec réducteurs et encodeurs
     * Des **pièces de fixation** mécanique
     * Une **LiPo 3S**
-    * **A vous de faire le chassis** !
+    * **A vous de faire le châssis** !
 
 .. slide::
 
@@ -48,7 +48,7 @@ Carte de communication
     * **Connecteurs 3 points**
 
 .. textOnly::
-    Cette carte fait donc parfaitement l'affaire pour piloter le chassis ci-dessus.
+    Cette carte fait donc parfaitement l'affaire pour piloter le châssis ci-dessus.
     Chaque pont en H permettra de piloter une roue.
 
 .. slide::
@@ -70,9 +70,9 @@ Le système embarqué
     **Raspberry Pi 3**
 
 .. discoverList::
-    * Un processeur **ARM**, avec quatre coeurs à **1.2 Ghz**
+    * Un processeur **ARM**, avec quatre cœurs à **1.2 Ghz**
     * **1GB** de mémoire vive
-    * Un système d'exploitation, en l'occurence **Debian**, installé sur une carte SD
+    * Un système d'exploitation, en l’occurrence **Debian**, installé sur une carte SD
     * Des **ports USB** et un **port Ethernet**
 
 .. textOnly::
@@ -202,7 +202,7 @@ Design du hardware
 Afin de dessiner le châssis du robot, nous vous proposons de découper au laser du
 bois ou du plexiglas.
 
-On pourra télécharger un logiciel de CAD pour le design des pieces 3D:
+On pourra télécharger un logiciel de CAD pour le design des pièces 3D:
 
 .. important::
 
