@@ -26,12 +26,6 @@ Le corps du robot: le chassis
     * Une **LiPo 3S**
     * **A vous de faire le chassis** !
 
-.. _montage:
-
-.. textOnly::
-    Ce chassis est livré non monté avec une notice claire et un tournevis adapté, il est très
-    facile de le monter. On imprimera aussi des pieces pour faire tenir la caméra avec l'imprimante 3D.
-
 .. slide::
 
 Carte de communication
