@@ -1,7 +1,7 @@
 
 .. slide:: middleSlide
 
-Vision : traitement de l'information des capteurs
+Vision
 ======
 
 .. slide::
@@ -14,16 +14,15 @@ Nous allons utiliser **OpenCV** pour la vision.
 .. discover::
     Nous utiliserons aussi une bibliothèque C++ pour communiquer avec le port série. Normalement la bibliothèque est déjà installée sur votre carte.
 
-.. slide::
-
-Dépôt
------
-
-Un dépôt open-source est déjà disponible, il contient des exemples:
-
-.. discover::
-    .. important::
-        `Dépôt AU324 sur GitHub →  <https://github.com/Gregwar/AU324>`_
+.. .. slide::
+.. Dépôt
+.. -----
+.. 
+.. Un dépôt open-source est déjà disponible, il contient des exemples:
+.. 
+.. .. discover::
+..     .. important::
+..         `Dépôt AU324 sur GitHub →  <https://github.com/Gregwar/AU324>`_
 
 .. slide::
 

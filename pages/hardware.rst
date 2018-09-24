@@ -1,6 +1,6 @@
 .. slide:: middleSlide
 
-Outils
+Matériel
 ======
 
 .. slide::
@@ -39,6 +39,7 @@ Carte de communication
 
 .. image:: /img/usb2ax.jpg
     :class: right
+    :width: 250
 
 .. textOnly::
     Vous utiliserez un adaptateur USB/Série **USB2AX** afin de communiquer avec les
@@ -65,6 +66,7 @@ Le système embarqué
 
 .. image:: /img/raspberry.jpg
     :class: right
+    :width: 250
 
 .. textOnly::
     A bord, nous mettrons également en place une **Raspberry Pi**, un véritable
@@ -206,3 +208,31 @@ On pourra télécharger un logiciel de CAD pour le design des pieces 3D:
 .. important::
 
      `Autodesk Inventor Professional <http://students.autodesk.com/?nd=download_center>`_
+
+.. slide::
+
+Budget
+~~~~~~
+
+.. |euro| raw:: 
+
+    &euro;
+
+Le coût de chaque robot peut être estimé:
+
+========     ==========      ==========
+**Pièce**    **Quantité**    **Prix**
+========     ==========      ==========
+MX-12W       2               65~|euro|
+========     ==========      ==========
+Raspberry Pi 1               40~|euro|
+========     ==========      ==========
+USB2AX       1               30~|euro|
+========     ==========      ==========
+Webcam       1               30~|euro|
+========     ==========      ==========
+LiPo 3S      1               20~|euro|
+========     ==========      ==========
+             **Total**       **250~|euro|**
+========     ==========      ==========
+

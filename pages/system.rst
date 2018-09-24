@@ -1,7 +1,7 @@
 
 .. slide:: middleSlide
 
-Système embarqué: le cerveau du robot
+Système embarqué
 ================
 
 .. slide::
