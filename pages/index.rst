@@ -18,7 +18,7 @@ Sommaire
 .. toctree::
 
 	presentation
-	hardware
+	tools
     architecture
     system
     com

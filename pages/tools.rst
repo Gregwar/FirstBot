@@ -114,15 +114,19 @@ Les capteurs: la caméra
 Logiciel
 --------
 
+.. image:: /img/pypot.png
+    :class: right
+    :width: 250
+    
+
 Contrôle des actionneurs: PyPot
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: /img/pypot.png
-    :class: right
-
-Nous utiliserons la bibliothèque python ``pypot`` afin de communiquer
-avec les servomoteurs sur le bus Dynamixel.
-
+.. discoverList::
+    * Bibliothèque **Python**
+    * Permet de communiquer avec les servomoteurs sur le bus **Dynamixel**
+    * Protocole orienté **lecture et écriture de registres**
+    * Servomoteurs identifiés par des **IDs**
 
 .. slide::
 
@@ -131,6 +135,7 @@ Système d'exploitation: Debian
 
 .. image:: /img/debian.png
     :class: right
+    :width: 250
 
 .. textOnly::
     **Debian** est un système d'exploitation très répandu. Ce sera le système
