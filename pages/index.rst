@@ -23,3 +23,9 @@ Sommaire
     system
     com
 
+Moodle
+------
+
+.. important::
+
+    `Accès au Moodle <https://moodle1.u-bordeaux.fr/course/view.php?id=4284>`_
