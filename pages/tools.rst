@@ -206,7 +206,9 @@ On pourra télécharger un logiciel de CAD pour le design des pièces 3D:
 
 .. important::
 
-     `Autodesk Inventor Professional <http://students.autodesk.com/?nd=download_center>`_
+     * `Autodesk Inventor Professional <http://students.autodesk.com/?nd=download_center>`_
+     * `OpenScad <http://www.openscad.org/>`_
+     * `InkScape <https://inkscape.org/fr/>`_
 
 .. slide::
 
