@@ -23,12 +23,7 @@ Vidéo
 -----
 
 .. center::
-    .. youtube:: QNsnn63xhFU
-
-.. slide::
-
-.. center::
-    .. youtube:: vBYw-NHZ1HA
+    .. youtube:: LoiH0qwec0E
 
 .. slide::
 
