@@ -23,9 +23,9 @@ Sommaire
     system
     com
 
-Moodle
+Inscription
 ------
 
 .. important::
 
-    `Accès au Moodle <https://moodle1.u-bordeaux.fr/course/view.php?id=4284>`_
+    `Inscription (+groupe) <https://docs.google.com/forms/d/e/1FAIpQLSdJZKt7zJeU2Ggg6WwxFnI24_AthJsiCV4mdh4vTthZZIvgEw/viewform>`_
