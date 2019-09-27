@@ -202,7 +202,13 @@ Design du hardware
 Afin de dessiner le châssis du robot, nous vous proposons de découper au laser du
 bois ou du plexiglas.
 
-On pourra télécharger un logiciel de CAD pour le design des pièces 3D:
+Nous vous recommandons fortement d'utiliser le logiciel de CAD suivant:
+
+.. important::
+
+    `OnShape <https://www.onshape.com>`_
+
+D'autres logiciels sont disponibles en téléchargement:
 
 .. important::
 
@@ -220,21 +226,47 @@ Budget
 
     &euro;
 
+.. |mx-12w| div::
+
+    `MX-12W <https://www.generationrobots.com/en/401691-dynamixel-mx-12w-servo-motor.html>`_
+
+.. |raspberry3| div::
+
+    `Raspberry Pi 3 <https://www.generationrobots.com/en/402366-raspberry-pi-3-model-b.html>`_
+
+.. |usb2ax| div::
+
+    `USB2AX <https://www.generationrobots.com/en/401584-usb2ax-for-dynamixel-servos.html>`_
+
+.. |c270| div::
+
+    `Webcam c270 <https://www.amazon.fr/Logitech-microphone-Compatible-Facebook-Centrale/dp/B003PAOAWG>`_
+
+.. |lipo| div::
+
+    `LiPo 4S 4000mAh <https://hobbyking.com/fr_fr/turnigy-high-capacity-4000mah-3s2p-12c-multi-rotor-lipo-pack-w-xt60.html>`_
+
+.. |ubec| div::
+
+    `Convertisseur DC/DC 5V 3A <https://www.generationrobots.com/en/402297-ubec-dcdc-buck-type-step-down-converter-5v-3a-output.html>`_
+
 Le coût de chaque robot peut être estimé:
 
-========     ==========      ==========
-**Pièce**    **Quantité**    **Prix**
-========     ==========      ==========
-MX-12W       2               65~|euro|
-========     ==========      ==========
-Raspberry Pi 1               40~|euro|
-========     ==========      ==========
-USB2AX       1               30~|euro|
-========     ==========      ==========
-Webcam       1               30~|euro|
-========     ==========      ==========
-LiPo 3S      1               20~|euro|
-========     ==========      ==========
-             **Total**       **250~|euro|**
-========     ==========      ==========
+==================     ==========      ==========
+**Pièce**              **Quantité**    **Prix**
+==================     ==========      ==========
+|mx-12w|               2               65~|euro|
+==================     ==========      ==========
+|raspberry3|           1               40~|euro|
+==================     ==========      ==========
+|usb2ax|               1               30~|euro|
+==================     ==========      ==========
+|c270|                 1               30~|euro|
+==================     ==========      ==========
+|lipo|                 1               20~|euro|
+==================     ==========      ==========
+|ubec|                 1               10~|euro|
+==================     ==========      ==========
+                       **Total**       **260~|euro|**
+==================     ==========      ==========
 
