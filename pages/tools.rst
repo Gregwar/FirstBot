@@ -252,7 +252,7 @@ Budget
 
 .. |fp04f3| div::
 
-    `Pièces de structure FP04-F3 <https://www.generationrobots.com/fr/401922-lot-de-10-pi%C3%A8ces-de-structure-fp04-f3-pour-servomoteur-dynamixel-ax.html?utm_source=Doofinder&utm_medium=Doofinder&utm_campaign=Doofinder`_
+    `Pièces de structure FP04-F3 <https://www.generationrobots.com/fr/401922-lot-de-10-pi%C3%A8ces-de-structure-fp04-f3-pour-servomoteur-dynamixel-ax.html?utm_source=Doofinder&utm_medium=Doofinder&utm_campaign=Doofinder>`_
 
 Le coût de chaque robot peut être estimé:
 
