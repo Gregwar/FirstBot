@@ -250,12 +250,18 @@ Budget
 
     `Convertisseur DC/DC 5V 3A <https://www.generationrobots.com/en/402297-ubec-dcdc-buck-type-step-down-converter-5v-3a-output.html>`_
 
+.. |fp04f3| div::
+
+    `Pièces de structure FP04-F3 <https://www.generationrobots.com/fr/401922-lot-de-10-pi%C3%A8ces-de-structure-fp04-f3-pour-servomoteur-dynamixel-ax.html?utm_source=Doofinder&utm_medium=Doofinder&utm_campaign=Doofinder`_
+
 Le coût de chaque robot peut être estimé:
 
 ==================     ==========      ==========
 **Pièce**              **Quantité**    **Prix**
 ==================     ==========      ==========
 |mx-12w|               2               65~|euro|
+==================     ==========      ==========
+|fp04f3|               2               -
 ==================     ==========      ==========
 |raspberry3|           1               40~|euro|
 ==================     ==========      ==========
