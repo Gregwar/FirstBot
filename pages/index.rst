@@ -29,3 +29,7 @@ Inscription
 .. important::
 
     `Inscription (+groupe) <https://docs.google.com/forms/d/e/1FAIpQLSdJZKt7zJeU2Ggg6WwxFnI24_AthJsiCV4mdh4vTthZZIvgEw/viewform>`_
+
+.. important::
+
+    `Vote chassis <https://forms.gle/KDt1byM83eQwvymJ7>`_
