@@ -22,8 +22,9 @@ Sommaire
     architecture
     system
     com
+    goals
 
-Inscription
+Formulaires
 ------
 
 .. important::
