@@ -89,5 +89,5 @@ Pour le contrôle:
 
 .. note::
 
-    Vous pourrez vous réferrez au `cours de robotique d'ASPIC <https://gregwar.com/ASPIC/>`_
+    Vous pourrez vous réferer au `cours de robotique d'ASPIC <https://gregwar.com/ASPIC/>`_
 
