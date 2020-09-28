@@ -6,8 +6,8 @@ Contacts
 
 .. important::
 
-    Rémi Fabre 
-    `remifabre1800@gmail.com <mailto:remifabre1800@gmail.com>`_
+    Olivier Ly 
+    `ly@labri.fr <mailto:ly@labri.fr>`_
 
     Grégoire Passault 
     `g.passault@gmail.com <mailto:;g.passault@gmail.com>`_
@@ -17,8 +17,8 @@ Sommaire
 
 .. toctree::
 
-	presentation
-	tools
+    presentation
+    tools
     architecture
     system
     com

@@ -85,9 +85,3 @@ Pour le contrôle:
 * $$pixel\_to\_world(x, y)$$ |rarr| $$x, y, z$$
   * Pareil, mais dans le **repère monde**
 
-
-
-.. note::
-
-    Vous pourrez vous réferer au `cours de robotique d'ASPIC <https://gregwar.com/ASPIC/>`_
-
