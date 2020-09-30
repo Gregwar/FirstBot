@@ -74,7 +74,7 @@ Voici des fonctions que nous vous recommandons d'implémenter, pour la partie od
 
 Pour le contrôle:
 
-* $$forward\_kinematics(\dot x, \dot y)$$ |rarr| $$(v_{gauche}, v_{droit})$$
+* $$inverse\_kinematics(\dot x, \dot \theta)$$ |rarr| $$(v_{gauche}, v_{droit})$$
   * Prend en paramètre la vitesse linéaire et angulaire souhaitée, et calcule la vitesse de la
   roue gauche et droite
 * $$go\_to\_xya(x, y, \theta)$$
