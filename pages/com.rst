@@ -35,10 +35,4 @@ Voici un exemple simple de script qui permet de bouger le moteur ``ID=1``:
 
     dxl_io = pypot.dynamixel.DxlIO(ports[0])
     dxl_io.set_wheel_mode([1])
-    dxl_io.set_moving_speed({1: 10})
-
-.. warning::
-
-    Attention: PyPot ne gère pas bien les unités utilisées par le MX-12W.
-    Résultat, l'unité de ``set_moving_speed`` est donc un multiple de
-    ``1.339 rpm``.
+    dxl_io.set_moving_speed({1: 360}) # Degrees / s
