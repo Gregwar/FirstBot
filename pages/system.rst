@@ -1,53 +1,47 @@
 
 .. slide:: middleSlide
 
-Système embarqué
+Embedded system
 ================
 
 .. slide::
 
-Présentation
+Presentation
 ------------
 
 .. textOnly::
-    A bord, comme :doc:`expliqué précédement <presentation#se>`, nous allons embarquer          
-    une **Raspberry pi**. Cette carte joue le rôle d'un ordinateur.
+    On the robot, as :doc:`explained previously <presentation#se>`, we will embed
+    a **Raspberry pi**. This board is exactly like a small computer.
 
-Nous proposons d'utiliser **Raspbian** (port de **Debian** pour **Raspberry pi**) comme système d'exploitation à bord
-de la **Raspberry pi**:
+You can use **Raspbian** (a **Debian** port for **Raspberry Pi**), as operating system;
 
 .. center::
     .. image:: /img/raspbian.png
 
 .. discover::
     .. important::
-        `Télécharger une image Raspbian → <http://www.raspberrypi.org/downloads>`_
+        `Download a Raspbian image → <http://www.raspberrypi.org/downloads>`_
 
 .. textOnly::
-    La mémoire principale de la **Raspberry pi** est une carte SD sur laquelle nous installerons
-    le système d'exploitation.
+    **Raspberry Pi**'s main memory is a micro SD card, you have to write the image on it.
 
 .. slide::
 
-Installation
+Installing
 ------------
 
-Raspbian est à installer sur la carte SD. Télécharger l'image et inscrivez la simplement sur la carte SD. Vous pourrez utiliser
-une commande comme ``dd``, vous pouvez vous réferer à ce `tutoriel <http://elinux.org/RPi_Easy_SD_Card_Setup>`_.
+Raspbian can be installed on an SD card, you can use **Raspberry Pi Imager** for this purpose.
 
-Vous pourrez alors vous connecter en SSH à la carte avec les paramètres:
+.. note::
 
-.. code-block:: txt
-    adresse ip:   172.0.0.1
-    identifiant:  pi
-    mot de passe: raspberry
+    Be sure to enable SSH server. There is ways to do this without even using a screen or a keyboard.
 
 .. slide::
 
-Paquets
+APT dependencies
 -------
 
-Les paquets suivants sont à installer:
+Following packages are required:
 
 .. code-block:: text
 
@@ -58,6 +52,5 @@ Les paquets suivants sont à installer:
     Ressources
     ----------
 
-    * `Quick start guide Raspberry pi <http://www.raspberrypi.org/quick-start-guide>`_
-    * `Télécharger une image Raspbian <http://www.raspberrypi.org/downloads>`_
-    * `Tutoriel d'installation Raspbian <http://elinux.org/RPi_Easy_SD_Card_Setup>`_
+    * `Quick start guide for Raspberry pi <http://www.raspberrypi.org/quick-start-guide>`_
+    * `Raspberry Pi OS downloads <http://www.raspberrypi.org/downloads>`_

@@ -1,17 +1,14 @@
 .. slide:: middleSlide
 
-Communication Dynamixel
+Dynamixel communication
 =======================
 
 .. slide::
 
-Installation de *PyPot*
------------------------
+*PyPot* installation
+---------------------
 
-Afin de communiquer avec les moteurs, nous vous proposons d'installer
-la bibliothèque python *PyPot*.
-
-Pour cela, il faudra lancer à bord de la Raspberry Pi:
+To communicate with servomotors, we will use *PyPot* library. To install it, simply run:
 
 .. code-block::
 
@@ -20,10 +17,10 @@ Pour cela, il faudra lancer à bord de la Raspberry Pi:
 
 .. slide::
 
-Utilisation
------------
+Usage
+-----
 
-Voici un exemple simple de script qui permet de bouger le moteur ``ID=1``:
+Here is a script example allowing to move the ``ID=1`` motor:
 
 .. code-block:: python
 

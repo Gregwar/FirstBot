@@ -1,6 +1,6 @@
 .. slide:: middleSlide
 
-Présentation
+Presentation
 ============
 
 .. slide::
@@ -8,18 +8,18 @@ Présentation
 Support
 -------
 
-Ce support est accessible à l'adresse suivante:
+This material is available at:
 
 .. important::
     `http://gregwar.com/firstbot/ <http://gregwar.com/firstbot/>`_
 
 .. note::
 
-    Les slides sont incorporés au contenu
+    Slides and content are mixed
 
 .. slide::
 
-Vidéo
+Video
 -----
 
 .. center::
@@ -27,20 +27,20 @@ Vidéo
 
 .. slide::
 
-Qu'est-ce qu'un robot?
+What is a robot?
 ------------------
 
 .. important::
 
     Robot ? 
-    Automate ? 
+    Automaton ? 
     Machine ? 
 
 .. discover::
 
     .. important::
         **robot**: 
-        ethymologie *robota*, soit travail, corvée ou servage
+        ethymology Czech *robota*, meaning "work", "chore", "labor"
 
 .. slide::
 
@@ -49,24 +49,17 @@ Qu'est-ce qu'un robot?
 
 .. slide::
 
-Objectif du projet
-------------------
+Project goals
+-------------
 
 .. textOnly::
 
-    **FirstBot** est un projet consistant à créer son propre robot, et
-    par la même occasion apprendre:
+    The goal of the **FirstBot** project is to build your first own robot, which implies:
 
 .. discoverList::
-    * Le contrôle des **actionneurs** du robot:
-        * Comment fonctionne un moteur ?
-        * Comment rendre le robot autonome ?
-
-    * L'exploitation des **capteurs** du robot:
-        * Comment faire de l'analyse d'image ?
-        * Comment utiliser les encodeurs d'un moteur ?
-
-    * Le système de **décision** (intelligence) du robot:
-        * Comment prendre des décisions ?
-
-
+    * Drawing your own frame using CAD software and tools from **FabLab**,
+    * Discovering how on-shelf **actuators** works,
+    * Working on an **embedded system** that is computationally and energitically autonomouse,
+    * Processing **images** to extract visual features,
+    * Handling some basic **kinematics** to control the trajectory of the robot.
+    

@@ -1,19 +1,19 @@
-Un premier robot dans l'atelier de l'option robotique
-=====================================================
+FirstBot
+========
 
 Contacts
 --------
 
 .. important::
 
-    Olivier Ly 
-    `ly@labri.fr <mailto:ly@labri.fr>`_
+    Rémi Fabre
+    `remifabre1800@gmail.com <mailto:remifabre1800@gmail.com>`_
 
     Grégoire Passault 
     `g.passault@gmail.com <mailto:;g.passault@gmail.com>`_
 
-Sommaire
---------
+Outline
+-------
 
 .. toctree::
 
@@ -24,7 +24,7 @@ Sommaire
     com
     goals
 
-.. Formulaires
+.. Forms
 .. ------
 .. .. important::
 ..    `Inscription (+groupe) <https://docs.google.com/forms/d/e/1FAIpQLSdJZKt7zJeU2Ggg6WwxFnI24_AthJsiCV4mdh4vTthZZIvgEw/viewform>`_
