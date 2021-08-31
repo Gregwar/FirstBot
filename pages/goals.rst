@@ -1,6 +1,6 @@
 .. slide:: middleSlide
 
-Objectifs
+Goals
 =========
 
 .. slide::
@@ -8,46 +8,44 @@ Objectifs
 Challenges
 ----------
 
-1) Suivi de ligne
+1) Line following
 ~~~~~~~~~~~~~~~~~
 
 .. image:: img/2019.jpg
     :style: float:right
 
-* Le robot doit être capable de **suivre une ligne de couleur**
-* Lorsqu'il arrive au bout du parcours, identifié par un marqueur, il passe au
-  **parcours suivant**, dans l'ordre:
-  * Jaune
-  * Bleu
-  * Rouge
+* Robot should be able to **follow a colored line**
+* When it reaches the end of the track, it will follow the next one:
+    * **2021-2022 Colors to be defined**
 
 .. slide::
 
 2) Go To
 ~~~~~~~~~
 
-Le robot est posé sur une position initiale (par exemple une croix au sol),
-et nous donnons une position/orientation cible $$x, y, \theta$$.
+Robot will be put on a known initial position (for example a cross marked on the ground),
+we will then provide a goal position and orientation $$x, y, \theta$$ (using international
+system units which are meters and radians).
 
-Le robot doit rouler pour atteindre cette position/orientation.
+The robot should move to reach this position/orientation.
 
 .. slide::
 
-3) Odométrie
+3) Odometry
 ~~~~~~~~~~~~
 
-Le robot est déplacé au sol (en mode "roues libres").
+Robot will be moved (using "passive wheels" mode) on the round.
 
-Après un certain temps, vous indiquerez où le robot se situe par rapport à
-la position initiale ($$x, y, \theta$$)
+After some time, you will indicate us where the robot is located regarding the initial
+position ($$x, y, \theta$), using only the reading of the motors encoders.
 
 .. slide::
 
-4) Dessin de la carte
+4) Drawing the map
 ~~~~~~~~~~~~~~~~~~~~~
 
-Après avoir suivi la ligne du challenge 1, le robot produira une carte (une image)
-du/des parcours "vu de haut".
+After following the line of challenge 1, the robot will produce a skyview map
+(image) of the track.
 
 .. slide::
 
@@ -58,36 +56,30 @@ Guide
 
     &rarr;
 
-Voici des fonctions que nous vous recommandons d'implémenter, pour la partie odométrie:
+Here are methods we recommand implementing for odometry part:
 
 * $$direct\_kinematics(v_{gauche}, v_{droit})$$ |rarr| $$(\dot x, \dot \theta)$$
-  * Prend en paramètre la vitesse des deux roues (par exemple en *rad/s*)
-  et retourne la vitesse linéaire (*m/s*) et angulaire (*rad/s*) du robot
+  * Takes as parameters wheel speeds (*rad/s*) and returns linear (*m/s*)
+  and angular (*rad/s*) speeds of the robot
 
 * $$odom(\dot x, \dot \theta, dt)$$ |rarr| $$(dx, dy, d\theta)$$
-  * Prend en paramètre la vitesse linéaire et angulaire, et retourne la variation
-  de position (en *m*) et la variation angulaire (en *rad*) dans le **repère du robot**
+  * Takes as parameters linear and angular speed of the robot, and returns the position
+  (*m*) and orientation (*rad*) variation in the **robot frame**
 
 * $$tick\_odom(x_{n-1}, y_{n-1}, \theta_{n-1})$$ |rarr| $$(x_n, y_n, \theta_n)$$
-  * Prend en paramètre la position/orientation du robot, la variation de position et d'orientation,
-  et retourne la nouvelle position/orientation du robot dans le **repère du monde**
+  * Takes as parameters the position and orientation of the robot in the world frame,
+  variation of the robot position and orientation in the robot frame, and returns new position and
+  orientation of the robot in the **world frame**
 
-Pour le contrôle:
+For control:
 
-* $$forward\_kinematics(\dot x, \dot y)$$ |rarr| $$(v_{gauche}, v_{droit})$$
-  * Prend en paramètre la vitesse linéaire et angulaire souhaitée, et calcule la vitesse de la
-  roue gauche et droite
+* $$inverse\_kinematics(\dot x, \dot \theta)$$ |rarr| $$(v_{gauche}, v_{droit})$$
+  * Takes as parameters linear and angular target speeds, and compute speed for left and right wheels
 * $$go\_to\_xya(x, y, \theta)$$
-  * Amène le robot à une position cible dans le **repère monde**
+  * Takes the robot to a given position in the **world frame**
 * $$pixel\_to\_robot(x, y)$$ |rarr| $$x, y, z$$
-  * Prend en paramètre la position d'un pixel dans l'image, et calcule la position du pixel dans
-  le **repère du robot**
+  * Takes as parameter the position of a pixel in the image and computes the position of the pixel
+  in the **robot frame**
 * $$pixel\_to\_world(x, y)$$ |rarr| $$x, y, z$$
-  * Pareil, mais dans le **repère monde**
-
-
-
-.. note::
-
-    Vous pourrez vous réferer au `cours de robotique d'ASPIC <https://gregwar.com/ASPIC/>`_
+  * Same, but in the **world frame**
 

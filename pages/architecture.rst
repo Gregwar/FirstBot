@@ -1,65 +1,64 @@
 
 .. slide:: middleSlide
 
-Architecture du robot
+Robot's architecture
 =====================
 
 .. slide::
 
-Mécanique
+Mechanics
 -------
 
-Montage
+Assembly
 ~~~~~~~
 
 .. image:: /img/bioloid_brackets.jpg
     :class: right
 
-Les servomoteurs sont équipés de *brackets*, qui sont des pièces plastiques
-permettant de se prendre sur le côté du moteur.
+Servomotors are provided with *brackets*, which are plastic parts allowing
+fixation on the side of the motor.
 
-Aussi, nous vous fourniront un ensemble de vis que vous pourrez utiliser pour
-l'assemblage.
+We will also provide you a set of screws that you can use for the assembly.
 
 .. important::
-    A vous de dessiner le châssis!
+    You are responsible to draw the frame!
 
 .. slide::
 
-Électronique
+Electronics
 ------------
 
-Alimentation
+Powering
 ~~~~~~~~~~~~
 
-Le robot est alimenté par une batterie 3S (environ *12V*). Ce voltage
-est régulé pour fournir les *5V* nécessaires à la Raspberry Pi.
+Robot is powered using a 3S (about *12V*) battery. This voltage is then
+stepped down to provide *5V* required for Raspberry Pi.
 
-Les moteurs sont, eux, alimentés en direct par la batterie.
+Motors are, however, directly powered by the battery.
 
 .. slide::
 
-Servomoteurs
+Servomotor
 ~~~~~~~~~~~~
 
-Les **MX-12W** sont des servomoteurs intégrant différentes parties, à savoir:
+**MX-12W** are servomotors that integrated different parts:
 
 .. discoverList::
     
-    * Un **moteur DC**
-    * Une **gearbox** (réducteur à base d'engrenages)
-    * Un **encodeur** (ici magnétique)
-    * Une électronique de contrôle, dont:
-        * Un **pont en H**
-        * Un bus de communication **série half-duplex**
+    * A **DC motor**
+    * A convenient **plastic box** with numerous screw possibilities
+    * A **gearbox** (gears based reducer)
+    * An **encoder** (here, magnetic)
+    * A power electronics, including:
+        * A **H bridge**
+        * An **half-duplex** uart communication bus
 
 .. slide::
 
 Gearbox
 ~~~~~~~
 
-Un moteur à courant continu classique fournit généralement une grande vitesse mais
-à faible couple.
+Typical DC motor can provide high rotating speed with low torque.
 
 .. discover::
 
@@ -67,13 +66,12 @@ Un moteur à courant continu classique fournit généralement une grande vitesse
         .. image:: /img/gearbox.jpg
             :width: 250
 
-    L'étage de réduction permet de réduire la vitesse du moteur et d'avoir plus de
-    couple en contrepartie.
+    Gearbox ratio allows reducing the rotating speed and obtaining more torque.
 
 
 .. slide::
 
-Pont en H
+H bridge
 ~~~~~~~~~
 
 .. center::
@@ -81,65 +79,60 @@ Pont en H
         :width: 300
 
 .. textOnly::
-    Plus tôt, nous avons parlé de **Pont en H**, sans expliquer réellement de quoi
-    il s'agissait.
+    We mentionned **H bridge** before without exactly explaining what it is.
 
-    En fait, un pont en H est un réseau de transistor permettant de:
+    Actually, H bridge is a transistor networks allowing:
 
 .. slideOnly::
-    Il permet de:
+    It allows:
 
 .. discoverList::
-    * **Alimenter des moteurs** (en faisant passer de la puissance, ici 2.5A max)
-    * Pouvoir gérer **la polarité**, et donc le sens de rotation
+    * **Providing power** to the motors (getting amps passing, here 2.5A max)
+    * Switching the **polarity**, which changes rotation direction
 
 .. textOnly::
-    En effet, les entrées/sorties standards d'un microcontrôleur ne permettent
-    de fournir que quelques mA, brancher un moteur dessus n'est donc pas possible,
-    le pont en H fournit à la fois la puissance et la possibilité d'inverser
-    la direction.
+    Indeed, microcontrollers inputs/outputs only allow for a few mA to go through
+    them. It is then not possible to plug a motor on them. H bridge can be used to
+    provide this power and invert direction.
 
 .. slide::
 
-Bus de communication
+Communication bus
 ~~~~~~~~~~~~~~~~~~~~
 
-Les servomoteurs Dynamixel sont équipés d'un connecteur à 3 contacts: la masse,
-l'alimentation et le bus série.
+Dynamixel servomotors like MX-12W are plugged using 3 pins connector: ground, power
+and serial data.
 
 .. discover::
     .. center::
         .. image:: /img/daisy_chain.jpg
 
 .. discover::
-    Ces trois fils sont **communs** à tous les moteurs branchés sur le bus.
+    Those 3 wires are **common** to every motor plugged.
 
 .. discover::
-    Chaque moteur est identifié logiciellement par un **ID**, numéro permettant de le
-    reconnaître.
+    Motors are identified by software **ID**, a number that identifies them on the bus.
 
 .. slide::
 
-Connexion de l'*USB2AX*
+Connection with *USB2AX*
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-
-Une fois la carte *USB2AX* branchée à votre ordinateur, elle sera reconnue comme un
-périphérique série. Sous Linux, vous découvrirez un pseudo-fichier d'un
-nom du type ``/dev/ttyUSB0``:
+Once you plugged *USB2AX* board to your computer, it will appear as an UART device.
+On Linux, you will discover a pseudo-file named typically ``/dev/ttyUSB0``:
 
 .. code-block:: text
     $ ls /dev/ttyUSB*
     /dev/ttyUSB0
 
-Sous Windows, vous découvrirez un port **COMx**, ou **x** est un numéro que vous pourrez
-déterminer en observant le gestionnaire de périphérique.
+On Windows, it will appear as a **COMx** port, where **x** is a number that you can find
+having a look in the devices manager.
 
-Testez que la carte est bien reconnue en vérifiant que le périphérique apparaît lors du branchement.
+You can test that the board works by checking devices appearing when you plug it.
 
 .. textOnly::
     Ressources
     ----------
 
-    * `Page de manuel ROBOTIS MX-12W <http://emanual.robotis.com/docs/en/dxl/mx/mx-12w/>`_
-    * `Documentation sur le protocole Dynamixel <http://emanual.robotis.com/docs/en/dxl/protocol1/>`_
+    * `ROBOTIS MX-12W manual <http://emanual.robotis.com/docs/en/dxl/mx/mx-12w/>`_
+    * `Dynamixel protcol documentation <http://emanual.robotis.com/docs/en/dxl/protocol1/>`_
