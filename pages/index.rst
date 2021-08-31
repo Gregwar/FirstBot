@@ -6,10 +6,10 @@ Contacts
 
 .. important::
 
-    Rémi Fabre 
+    Rémi Fabre  
     `remifabre1800@gmail.com <mailto:remifabre1800@gmail.com>`_
 
-    Grégoire Passault 
+    Grégoire Passault  
     `g.passault@gmail.com <mailto:;g.passault@gmail.com>`_
 
 Sommaire
