@@ -36,8 +36,7 @@ The robot should move to reach this position/orientation.
 
 Robot will be moved (using "passive wheels" mode) on the round.
 
-After some time, you will indicate us where the robot is located regarding the initial
-position ($$x, y, \theta$), using only the reading of the motors encoders.
+After some time, you will indicate where the robot is located relative to its initial position ($$x, y, \theta$), using only the motor encoders.
 
 .. slide::
 
@@ -56,7 +55,7 @@ Guide
 
     &rarr;
 
-Here are methods we recommand implementing for odometry part:
+Here are the methods we recommend implementing for the odometry part:
 
 * $$direct\_kinematics(v_{gauche}, v_{droit})$$ |rarr| $$(\dot x, \dot \theta)$$
   * Takes as parameters wheel speeds (*rad/s*) and returns linear (*m/s*)
@@ -66,15 +65,15 @@ Here are methods we recommand implementing for odometry part:
   * Takes as parameters linear and angular speed of the robot, and returns the position
   (*m*) and orientation (*rad*) variation in the **robot frame**
 
-* $$tick\_odom(x_{n-1}, y_{n-1}, \theta_{n-1})$$ |rarr| $$(x_n, y_n, \theta_n)$$
-  * Takes as parameters the position and orientation of the robot in the world frame,
+* $$tick\_odom(x_{n-1}, y_{n-1}, \theta_{n-1}, \dot x, \dot \theta, dt)$$ |rarr| $$(x_n, y_n, \theta_n)$$
+  * Takes as parameters the position and orientation of the robot in the world frame, the
   variation of the robot position and orientation in the robot frame, and returns new position and
   orientation of the robot in the **world frame**
 
 For control:
 
 * $$inverse\_kinematics(\dot x, \dot \theta)$$ |rarr| $$(v_{gauche}, v_{droit})$$
-  * Takes as parameters linear and angular target speeds, and compute speed for left and right wheels
+  * Takes as parameters the linear and angular target speeds, and computes the speed for left and right wheels
 * $$go\_to\_xya(x, y, \theta)$$
   * Takes the robot to a given position in the **world frame**
 * $$pixel\_to\_robot(x, y)$$ |rarr| $$x, y, z$$
