@@ -92,7 +92,7 @@ Camera
 .. discoverList::
     * Can capture up to **HD 720p**
     * **Linux** and **OpenCV** compliant
-    * Can **lower the resolution** to gain **frequency**
+    * Can **lower the resolution** to increase **frequency**
     
 .. textOnly::
     This camera will be plugged to the **Raspberry Pi** to extract images and drive the robot
@@ -134,7 +134,7 @@ Debian (Raspbian)
     **Debian**
 
 .. discoverList::
-    * It is a **Linux distriution**
+    * It is a **Linux distribution**
     * There is a special version optimized for **Raspberry Pi**
     * It is very famous and used (Ubuntu is based on it)
 
@@ -160,9 +160,9 @@ OpenCV: image processing
 
 .. discoverList::
     * Is **Open-source**
-    * Allows easy **image capturing and accessing**
+    * Allows for easy **image capturing and accessing**
     * Is well `documented <http://opencv.org/documentation.html>`_ and easy to use
-    * Contains many **ready-made image analysis**
+    * Contains many **out of the box image analysis algorithms**
 
 .. slide::
 
@@ -174,6 +174,8 @@ You will use LiPo 3S batteries.
 .. warning::
     Warning: always use the buzzer monitor before every use and turn everything
     off **immediately** when it starts buzzing.
+.. warning::
+    Warning: do NOT let the battery connected when the robot is left alone for long periods of time, typically during the lunch break.
 
 .. slide::
 
@@ -243,7 +245,7 @@ Budget
 
     `Brackets FP04-F3 <https://www.generationrobots.com/fr/401922-lot-de-10-pi%C3%A8ces-de-structure-fp04-f3-pour-servomoteur-dynamixel-ax.html?utm_source=Doofinder&utm_medium=Doofinder&utm_campaign=Doofinder>`_
 
-Robot price can be estimated:
+Robot price estimation:
 
 ==================     ==========      ==========
 **Part**               **Quantity**    **Price**
