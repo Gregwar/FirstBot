@@ -12,6 +12,8 @@ Contacts
     Grégoire Passault  
     `g.passault@gmail.com <mailto:;g.passault@gmail.com>`_
 
+    `https://gregwar.com/firstbot <https://gregwar.com/firstbot>`_
+
 Outline
 -------
 
