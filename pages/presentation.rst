@@ -54,12 +54,12 @@ Project goals
 
 .. textOnly::
 
-    The goal of the **FirstBot** project is to build your first own robot, which implies:
+    The goal of the **FirstBot** project is to build your own first robot, which implies:
 
 .. discoverList::
     * Drawing your own frame using CAD software and tools from **FabLab**,
     * Discovering how on-shelf **actuators** works,
-    * Working on an **embedded system** that is computationally and energitically autonomouse,
+    * Working on an **embedded system** that is computationally and energitically autonomous,
     * Processing **images** to extract visual features,
     * Handling some basic **kinematics** to control the trajectory of the robot.
     

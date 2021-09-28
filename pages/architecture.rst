@@ -18,21 +18,21 @@ Assembly
 Servomotors are provided with *brackets*, which are plastic parts allowing
 fixation on the side of the motor.
 
-We will also provide you a set of screws that you can use for the assembly.
+We will also provide a set of screws that you can use for the assembly.
 
 .. important::
-    You are responsible to draw the frame!
+    Drawing the frame is your responsability!
 
 .. slide::
 
 Electronics
 ------------
 
-Powering
+Power
 ~~~~~~~~~~~~
 
-Robot is powered using a 3S (about *12V*) battery. This voltage is then
-stepped down to provide *5V* required for Raspberry Pi.
+The robot is powered using a 3S (about *12V*) battery. This voltage is then
+stepped down to provide the *5V* required for Raspberry Pi.
 
 Motors are, however, directly powered by the battery.
 
@@ -41,14 +41,14 @@ Motors are, however, directly powered by the battery.
 Servomotor
 ~~~~~~~~~~~~
 
-**MX-12W** are servomotors that integrated different parts:
+**MX-12W** are servomotors that integrate different parts:
 
 .. discoverList::
     
     * A **DC motor**
     * A convenient **plastic box** with numerous screw possibilities
     * A **gearbox** (gears based reducer)
-    * An **encoder** (here, magnetic)
+    * An **encoder** (here magnetic)
     * A power electronics, including:
         * A **H bridge**
         * An **half-duplex** uart communication bus
@@ -58,7 +58,7 @@ Servomotor
 Gearbox
 ~~~~~~~
 
-Typical DC motor can provide high rotating speed with low torque.
+Typical DC motors can provide high rotating speeds with low torque.
 
 .. discover::
 
@@ -66,7 +66,7 @@ Typical DC motor can provide high rotating speed with low torque.
         .. image:: /img/gearbox.jpg
             :width: 250
 
-    Gearbox ratio allows reducing the rotating speed and obtaining more torque.
+    The gearbox ratio reduces the rotating speed and increases the torque.
 
 
 .. slide::
@@ -79,20 +79,20 @@ H bridge
         :width: 300
 
 .. textOnly::
-    We mentionned **H bridge** before without exactly explaining what it is.
+    We mentionned the **H bridge** before without exactly explaining what it is.
 
-    Actually, H bridge is a transistor networks allowing:
+    An H bridge is an electronic circuit that uses transitors for:
 
 .. slideOnly::
     It allows:
 
 .. discoverList::
     * **Providing power** to the motors (getting amps passing, here 2.5A max)
-    * Switching the **polarity**, which changes rotation direction
+    * Switching the **polarity**, which changes the rotation direction
 
 .. textOnly::
     Indeed, microcontrollers inputs/outputs only allow for a few mA to go through
-    them. It is then not possible to plug a motor on them. H bridge can be used to
+    them. It is therefore not possible to plug a motor on them. H bridges can be used to
     provide this power and invert direction.
 
 .. slide::
@@ -100,7 +100,7 @@ H bridge
 Communication bus
 ~~~~~~~~~~~~~~~~~~~~
 
-Dynamixel servomotors like MX-12W are plugged using 3 pins connector: ground, power
+Dynamixel servomotors like MX-12W are plugged using 3 pins connectors: ground, power
 and serial data.
 
 .. discover::
@@ -108,17 +108,17 @@ and serial data.
         .. image:: /img/daisy_chain.jpg
 
 .. discover::
-    Those 3 wires are **common** to every motor plugged.
+    The motors are plugged in a serial fashion, therefore those 3 wires are **common** to every motor plugged (meaning the same power/data/groud wire goes through every motor)
 
 .. discover::
-    Motors are identified by software **ID**, a number that identifies them on the bus.
+    Motors are identified by a software **ID**, a number that identifies them on the bus.
 
 .. slide::
 
 Connection with *USB2AX*
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-Once you plugged *USB2AX* board to your computer, it will appear as an UART device.
+Once you plug the *USB2AX* board to your computer, it will appear as an UART device.
 On Linux, you will discover a pseudo-file named typically ``/dev/ttyUSB0``:
 
 .. code-block:: text
