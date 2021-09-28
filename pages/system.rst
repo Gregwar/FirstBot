@@ -36,18 +36,6 @@ Raspbian can be installed on an SD card, you can use **Raspberry Pi Imager** for
 
     Be sure to enable SSH server. There is ways to do this without even using a screen or a keyboard.
 
-.. slide::
-
-APT dependencies
--------
-
-Following packages are required:
-
-.. code-block:: text
-
-    apt-get install git libcv2.4 libcv-dev libopencv-contrib-dev \
-          libopencv-gpu-dev libopencv-dev g++ apache2 cu cmake
-
 .. textOnly::
     Ressources
     ----------
