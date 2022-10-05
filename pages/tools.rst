@@ -65,7 +65,7 @@ CPU
     **Raspberry Pi**
 
 .. discoverList::
-    * **ARM** processor with four cors at **1.2 Ghz**
+    * **ARM** processor with four cores at **1.2 Ghz**
     * **1GB** of **RAM**
     * An operating system, namely **Debian** installed on an SD card
     * **USB** and **Ethernet** ports
