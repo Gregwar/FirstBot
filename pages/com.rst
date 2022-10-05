@@ -13,7 +13,7 @@ To communicate with servomotors, we will use *PyPot* library. To install it, sim
 .. code-block::
 
     sudo apt-get install python3 python3-pip python3-numpy python3-scipy python3-matplotlib python3-opencv
-    pip3 install pypot
+    pip3 install pypot_gregwar
 
 .. slide::
 
