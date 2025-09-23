@@ -6,14 +6,18 @@ Contacts
 
 .. important::
 
-    Grégoire Passault  
-    `g.passault@gmail.com <mailto:g.passault@gmail.com>`_
+    Marc Duclusaud 
+    `marc.duclusaud@u-bordeaux.fr <mailto:marc.duclusaud@u-bordeaux.fr>`_
 
-    Clément Gaspard  
-    `clement.gaspard@u-bordeaux.fr <mailto:clement.gaspard@u-bordeaux.fr>`_
+    Rémi Fabre 
+    `remifabre1800@gmail.com <mailto:remifabre1800@gmail.com>`_
 
-.. Rémi Fabre 
-.. `remifabre1800@gmail.com <mailto:remifabre1800@gmail.com>`_
+    .. Grégoire Passault  
+    .. `g.passault@gmail.com <mailto:g.passault@gmail.com>`_
+
+    .. Clément Gaspard  
+    .. `clement.gaspard@u-bordeaux.fr <mailto:clement.gaspard@u-bordeaux.fr>`_
+
 
 Outline
 -------
